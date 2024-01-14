@@ -23,3 +23,6 @@ public class TrickyCode020 extends Exception {
 	}
 
 }
+
+// My custom exception test
+// Test Exception
