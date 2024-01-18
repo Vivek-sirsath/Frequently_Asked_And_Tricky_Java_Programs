@@ -16,15 +16,15 @@ public class AddElementInArray {
 		
 		ArrayList al = new ArrayList(Arrays.asList(cars));
 		
-		System.out.println("Before adding : " + al);
+		System.out.println("Before adding : " + al); // [Volvo, BMW, Audi]
 		
 		// Add an element into array
 		al.add("Jaguar");
-		System.out.println("After adding : " + al);
+		System.out.println("After adding : " + al); // [Volvo, BMW, Audi, Jaguar]
 		
 		// Remove element from Array
 		al.remove(1);
-		System.out.println("After removing index-1 element : " + al);
+		System.out.println("After removing index-1 element : " + al); // [Volvo, Audi, Jaguar]
 		
 	}
 
