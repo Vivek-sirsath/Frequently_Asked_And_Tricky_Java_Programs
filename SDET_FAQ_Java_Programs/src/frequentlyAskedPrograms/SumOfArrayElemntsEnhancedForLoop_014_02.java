@@ -1,6 +1,6 @@
 package frequentlyAskedPrograms;
 
-public class SumOfArrayElemntsEnhancedForLoop_014 {
+public class SumOfArrayElemntsEnhancedForLoop_014_02 {
 
 	public static void main(String[] args) {
 
