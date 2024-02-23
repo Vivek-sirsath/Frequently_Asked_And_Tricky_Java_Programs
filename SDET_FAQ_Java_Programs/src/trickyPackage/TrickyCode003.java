@@ -3,8 +3,11 @@ package trickyPackage;
 /* Q. What will happen when we compile and run the following code?
  * Answer - 23
  * Here, ++j means increment j by 1 before its value is used. So, j becomes 13, 
- * and then i is updated by adding this value (i += 13), 
+ * and then i is updated by adding this value (i += 13) ~ (i = i + 13), 
  * resulting in i being equal to 23.
+ * 
+ * (i+=++j) is a short hand of (i = i + ++j)
+ * Thus, i = 10 + 13 = 23
  * 
  * The += operator is called the "addition assignment" operator in Java.
  * SYNTAX:
