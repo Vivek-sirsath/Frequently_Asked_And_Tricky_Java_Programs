@@ -1,7 +1,7 @@
 package trickyPackage;
 
 //Q. What will be the error in the following code
-//Answer: Castong is needed to convert int to byte at line b = b*50;
+//Answer: Casting is needed to convert int to byte at line b = b*50;
 
 public class TrickyCode011 {
 
