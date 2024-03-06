@@ -10,7 +10,7 @@ public class TrickyCode017 {
 		String c = "Hello i love java";
 		boolean var;
 		
-		var = c.startsWith("hello");
+		var = c.startsWith("hello"); // If "Hello", then returns true
 		System.out.println(var);
 
 	}
