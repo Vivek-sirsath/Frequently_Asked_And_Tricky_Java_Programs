@@ -19,7 +19,7 @@ public class PrimeNumberOrNot_011 {
 
 	public static void main(String[] args) {
 		
-		int num = 5;
+		int num = 3;
 		int count = 0;
 		
 		if (num>1) {
