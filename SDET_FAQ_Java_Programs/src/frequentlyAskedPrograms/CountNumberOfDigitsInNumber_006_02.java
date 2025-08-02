@@ -8,7 +8,7 @@ public class CountNumberOfDigitsInNumber_006_02 {
 		
 		int count = 0;
 		
-		while(num>0) {  // Here we need to set degug points
+		while(num>0) {  // Here we need to set debug points
 			num=num/10;
 			count++;
 		}
