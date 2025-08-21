@@ -8,10 +8,11 @@ public class AddElementInArray {
 	public static void main(String[] args) {
 		
 		String cars[] = {"Volvo", "BMW", "Audi"};
-		
-		// ArrayList al = new ArrayList(Arrays.asList());
+
 		// If we don't pass the array reference variable 'cars'
-		// Without passing array reference variable output will be: : []		
+		// ArrayList al = new ArrayList(Arrays.asList());
+		
+		// Printing without passing array reference variable, the output will be: : []		
 		// System.out.println("Without passing array reference variable : " + al);
 		
 		ArrayList al = new ArrayList(Arrays.asList(cars));
