@@ -11,20 +11,18 @@ public class AddElementInArray {
 
 		// If we don't pass the array reference variable 'cars'
 		// ArrayList al = new ArrayList(Arrays.asList());
-<<<<<<< HEAD
-		// If we dont pass the array reference variabble cars
 		// Without passing array reference variable output will be: : []		
-=======
+		// Printing without passing array reference variable, the output will be: []		
+
+	    // System.out.println("Without passing array reference variable : " + al);  // []
 		
-		// Printing without passing array reference variable, the output will be: : []		
->>>>>>> branch 'main' of https://github.com/Vivek-sirsath/Frequently_Asked_And_Tricky_Java_Programs.git
-		// System.out.println("Without passing array reference variable : " + al);
 		
+		// By passing the array reference variable 'cars'
 		ArrayList al = new ArrayList(Arrays.asList(cars));
 		
 		System.out.println("Before adding : " + al); // [Volvo, BMW, Audi]
 		
-		// Add an element into array
+		// Add an element 'Jaguar' into array
 		al.add("Jaguar");
 		System.out.println("After adding : " + al); // [Volvo, BMW, Audi, Jaguar]
 		
